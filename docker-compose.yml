@@ -46,7 +46,8 @@ services:
     build:
       context: ./frontend
       args:
-        VITE_API_URL: /api
+        # kguanoluisa, URL directa al API Python expuesto en el host local sin proxy Nginx, sin nuevas variables, 2026-07-17
+        VITE_API_URL: http://localhost:8000
     ports:
       - "80:80"
     depends_on:
