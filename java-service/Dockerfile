@@ -1,0 +1,12 @@
+# kguanoluisa, Dockerfile multi-stage build Maven y runtime JRE para producción, sin nuevas variables, 2026-07-17
+FROM maven:3.9-eclipse-temurin-21 AS build
+WORKDIR /app
+COPY pom.xml .
+COPY src ./src
+RUN mvn package -DskipTests
+
+FROM eclipse-temurin:21-jre
+WORKDIR /app
+COPY --from=build /app/target/analyticore-java-service-1.0.0.jar app.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "app.jar"]
