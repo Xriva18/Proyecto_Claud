@@ -14,5 +14,6 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
+# kguanoluisa, Puerto dinámico para Render vía variable PORT con fallback local 8080, sin nuevas variables, 2026-07-17
 server:
-  port: 8080
+  port: ${PORT:8080}
