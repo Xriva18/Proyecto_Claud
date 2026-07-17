@@ -20,6 +20,18 @@ Proyecto_Claud/
 - **Java:** analiza sentimiento y palabras clave, actualiza la misma tabla `jobs`.
 - **PostgreSQL:** base `db_analyticore`, tabla compartida `jobs`.
 
+## Publicar en GitHub
+
+```bash
+# Crear repo remoto (requiere GitHub CLI instalado)
+gh repo create Proyecto_Claud --public --source=. --remote=origin --push
+
+# O manualmente:
+git remote add origin https://github.com/TU_USUARIO/Proyecto_Claud.git
+git branch -M main
+git push -u origin main
+```
+
 ## Prueba local con Docker
 
 ```bash
