@@ -1,6 +1,7 @@
 package com.claud.analyticore.presentation;
 
 // kguanoluisa, DTO de entrada para POST /analysis, clase AnalysisRequest, 2026-07-17
+// kguanoluisa, Funcionamiento: deserializa el JSON {jobId, texto} enviado por Python hacia el controlador, sin nuevas variables, 2026-07-17
 public class AnalysisRequest {
 
     private String jobId;

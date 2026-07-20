@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Component;
 
 // kguanoluisa, Analizador simple de sentimiento y palabras clave sin ML, clase SimpleTextAnalyzer, 2026-07-17
+// kguanoluisa, Funcionamiento: tokeniza el texto, compara diccionarios positivo/negativo y devuelve sentimiento más frecuentes, sin nuevas variables, 2026-07-17
 @Component
 public class SimpleTextAnalyzer {
 

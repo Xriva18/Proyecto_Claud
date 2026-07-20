@@ -1,4 +1,5 @@
 # kguanoluisa, Dockerfile multi-stage build Maven y runtime JRE para producción, sin nuevas variables, 2026-07-17
+# kguanoluisa, Funcionamiento: etapa 1 compila el JAR con Maven; etapa 2 ejecuta app.jar con Java 21 en Render o Docker, sin nuevas variables, 2026-07-17
 FROM maven:3.9-eclipse-temurin-21 AS build
 WORKDIR /app
 COPY pom.xml .

@@ -1,3 +1,5 @@
+# kguanoluisa, Dockerfile imagen Python con Uvicorn; puerto dinámico PORT para Render, sin nuevas variables, 2026-07-17
+# kguanoluisa, Funcionamiento: instala requirements, copia el código y arranca main:app escuchando en ${PORT:-8000}, sin nuevas variables, 2026-07-17
 FROM python:3.12-slim
 
 WORKDIR /app

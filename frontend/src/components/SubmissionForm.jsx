@@ -1,4 +1,5 @@
 // kguanoluisa, Formulario para enviar texto a analizar, variables texto setTexto onSubmit loading, 2026-07-17
+// kguanoluisa, Funcionamiento: captura el texto del usuario y dispara onSubmit hacia App, que crea el job en Python, sin nuevas variables, 2026-07-17
 export default function SubmissionForm({ texto, setTexto, onSubmit, loading }) {
   return (
     <form

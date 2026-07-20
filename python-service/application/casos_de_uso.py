@@ -1,4 +1,5 @@
 # kguanoluisa, Casos de uso crear submission y consultar estado con procesamiento en background, clases CrearSubmissionUseCase ConsultarEstadoUseCase, 2026-07-17
+# kguanoluisa, Funcionamiento: CrearSubmission guarda PENDIENTE y en background marca PROCESANDO y llama Java; ConsultarEstado lee la fila actual, sin nuevas variables, 2026-07-17
 import logging
 
 from domain.job import EstadoJob, Job

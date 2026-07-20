@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 // kguanoluisa, Controlador REST POST /analysis invocado por el servicio Python, clase AnalysisController, 2026-07-17
+// kguanoluisa, Funcionamiento: recibe jobId/texto, ejecuta ProcesarAnalisisUseCase y devuelve sentimiento y palabras clave, sin nuevas variables, 2026-07-17
 @RestController
 public class AnalysisController {
 

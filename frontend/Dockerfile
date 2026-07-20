@@ -1,4 +1,5 @@
 # kguanoluisa, Dockerfile multi-stage Node build + Nginx para producción, sin nuevas variables, 2026-07-17
+# kguanoluisa, Funcionamiento: etapa 1 compila React con VITE_API_URL; etapa 2 copia dist a Nginx y expone puerto 80, sin nuevas variables, 2026-07-17
 FROM node:20-alpine AS build
 WORKDIR /app
 COPY package.json ./

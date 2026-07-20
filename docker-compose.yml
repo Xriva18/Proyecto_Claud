@@ -1,4 +1,5 @@
 # kguanoluisa, Orquestación local de postgres, java-service, python-service y frontend, sin nuevas variables, 2026-07-17
+# kguanoluisa, Funcionamiento: levanta los 4 contenedores en red Docker; Postgres healthy antes de Java/Python; frontend apunta a localhost:8000, sin nuevas variables, 2026-07-17
 services:
   postgres:
     image: postgres:16-alpine

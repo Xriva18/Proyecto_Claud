@@ -1,4 +1,5 @@
 # kguanoluisa, Configuración Spring Boot con PostgreSQL vía DATABASE_URL, sin nuevas variables, 2026-07-17
+# kguanoluisa, Funcionamiento: conecta JPA a Postgres con SPRING_DATASOURCE_URL/DB_USER/DB_PASSWORD y escucha en ${PORT:8080}, sin nuevas variables, 2026-07-17
 spring:
   application:
     name: analyticore-java-service

@@ -8,6 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 // kguanoluisa, Entidad JPA mapeada a la tabla jobs compartida, clase JobEntity, 2026-07-17
+// kguanoluisa, Funcionamiento: representación ORM de la fila jobs usada por Spring Data para leer/escribir en Postgres, sin nuevas variables, 2026-07-17
 @Entity
 @Table(name = "jobs")
 public class JobEntity {

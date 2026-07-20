@@ -8,6 +8,7 @@ import com.claud.analyticore.infrastructure.persistence.JobRepositoryAdapter;
 import org.springframework.stereotype.Service;
 
 // kguanoluisa, Caso de uso procesar análisis de sentimiento y palabras clave, clase ProcesarAnalisisUseCase, 2026-07-17
+// kguanoluisa, Funcionamiento: busca el job en BD, analiza el texto, marca COMPLETADO y persiste sentimiento/palabras clave, sin nuevas variables, 2026-07-17
 @Service
 public class ProcesarAnalisisUseCase {
 

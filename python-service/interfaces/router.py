@@ -1,4 +1,5 @@
 # kguanoluisa, Endpoints REST POST /jobs y GET /jobs/{id} con DTOs Pydantic, clases CrearJobDTO JobResponseDTO, 2026-07-17
+# kguanoluisa, Funcionamiento: POST crea job en BD y lanza procesamiento async; GET devuelve estado y resultado al frontend, sin nuevas variables, 2026-07-17
 from fastapi import APIRouter, BackgroundTasks, HTTPException
 from pydantic import BaseModel
 

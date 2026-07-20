@@ -12,6 +12,7 @@ import java.util.Optional;
 import org.springframework.stereotype.Repository;
 
 // kguanoluisa, Adaptador de persistencia JPA con mapeo entidad-dominio, clase JobRepositoryAdapter, 2026-07-17
+// kguanoluisa, Funcionamiento: busca jobs por id y guarda sentimiento/palabras clave serializadas en la tabla jobs, sin nuevas variables, 2026-07-17
 @Repository
 public class JobRepositoryAdapter {
 

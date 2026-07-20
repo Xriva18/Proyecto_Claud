@@ -1,4 +1,5 @@
 // kguanoluisa, App principal con formulario y polling cada 2s a GET /jobs/{id}, variables jobId job polling, 2026-07-17
+// kguanoluisa, Funcionamiento: al enviar texto llama POST /jobs vía jobsApi, guarda el id y consulta GET /jobs/{id} cada 2s hasta COMPLETADO o 30 intentos, sin nuevas variables, 2026-07-17
 import { useEffect, useRef, useState } from 'react';
 import { consultarJob, crearJob } from './api/jobsApi';
 import SubmissionForm from './components/SubmissionForm';

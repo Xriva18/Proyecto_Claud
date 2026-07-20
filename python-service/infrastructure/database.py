@@ -1,4 +1,5 @@
 # kguanoluisa, Configuración SQLAlchemy PostgreSQL y modelo ORM JobModel, variables engine SessionLocal Base, 2026-07-17
+# kguanoluisa, Funcionamiento: lee DATABASE_URL, crea engine/sesiones y mapea la tabla jobs compartida con Python y Java, sin nuevas variables, 2026-07-17
 import os
 
 from sqlalchemy import Column, DateTime, String, Text, create_engine

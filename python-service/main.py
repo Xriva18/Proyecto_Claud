@@ -1,4 +1,5 @@
 # kguanoluisa, Punto de entrada FastAPI con CORS y router de jobs, sin nuevas variables, 2026-07-17
+# kguanoluisa, Funcionamiento: expone /health y monta /jobs; al iniciar verifica/crea tablas con init_db(), sin nuevas variables, 2026-07-17
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 

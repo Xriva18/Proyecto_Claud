@@ -4,6 +4,7 @@ import java.time.Instant;
 import java.util.List;
 
 // kguanoluisa, Entidad de dominio Job con resultado de análisis, sin nuevas variables, 2026-07-17
+// kguanoluisa, Funcionamiento: modelo de negocio Java; marcarCompletado actualiza estado y resultados antes de persistir, sin nuevas variables, 2026-07-17
 public class Job {
 
     private String id;

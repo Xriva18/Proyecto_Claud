@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- kguanoluisa, Maven define dependencias Spring Web, JPA y PostgreSQL para el servicio de análisis, sin nuevas variables, 2026-07-17 -->
+<!-- kguanoluisa, Funcionamiento: empaqueta analyticore-java-service-1.0.0.jar ejecutable con spring-boot-maven-plugin, sin nuevas variables, 2026-07-17 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">

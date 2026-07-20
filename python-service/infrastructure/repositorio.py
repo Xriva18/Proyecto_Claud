@@ -1,4 +1,5 @@
 # kguanoluisa, Repositorio PostgreSQL para jobs con mapeo ORM-dominio, clase JobRepositorio, 2026-07-17
+# kguanoluisa, Funcionamiento: traduce entre Job (dominio) y JobModel (SQLAlchemy) para guardar, buscar y actualizar estado, sin nuevas variables, 2026-07-17
 import json
 
 from domain.job import EstadoJob, Job

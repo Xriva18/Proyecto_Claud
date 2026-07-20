@@ -1,4 +1,5 @@
 // kguanoluisa, Vista de resultado con polling y estados PENDIENTE PROCESANDO COMPLETADO, prop job, 2026-07-17
+// kguanoluisa, Funcionamiento: muestra el estado del job y, al completarse, el sentimiento y las palabras clave devueltas por Python, sin nuevas variables, 2026-07-17
 export default function JobResult({ job, polling }) {
   if (!job) return null;
 

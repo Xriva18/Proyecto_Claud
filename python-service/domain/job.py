@@ -1,4 +1,5 @@
 # kguanoluisa, Entidad Job y enum EstadoJob para el servicio de submisión, variables EstadoJob, 2026-07-17
+# kguanoluisa, Funcionamiento: representa un trabajo de análisis con UUID, estados PENDIENTE/PROCESANDO/COMPLETADO y campos de resultado, sin nuevas variables, 2026-07-17
 from dataclasses import dataclass, field
 from datetime import datetime
 from enum import Enum

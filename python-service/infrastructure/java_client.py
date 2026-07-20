@@ -1,4 +1,5 @@
 # kguanoluisa, Cliente HTTP para llamar al servicio Java POST /analysis, clase JavaAnalysisClient, 2026-07-17
+# kguanoluisa, Funcionamiento: envía jobId y texto a JAVA_SERVICE_URL/analysis; Java analiza y persiste el resultado en jobs, sin nuevas variables, 2026-07-17
 import os
 
 import httpx

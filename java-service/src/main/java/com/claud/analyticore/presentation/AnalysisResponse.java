@@ -3,6 +3,7 @@ package com.claud.analyticore.presentation;
 import java.util.List;
 
 // kguanoluisa, DTO de salida para POST /analysis, clase AnalysisResponse, 2026-07-17
+// kguanoluisa, Funcionamiento: serializa sentimiento y palabrasClave como respuesta JSON al servicio Python, sin nuevas variables, 2026-07-17
 public class AnalysisResponse {
 
     private String sentimiento;
