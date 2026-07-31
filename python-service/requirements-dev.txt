@@ -1,0 +1,3 @@
+# kguanoluisa, Dependencias de desarrollo para pruebas unitarias sin incluir pytest en producción, sin nuevas variables, 2026-07-30
+-r requirements.txt
+pytest==8.2.2
