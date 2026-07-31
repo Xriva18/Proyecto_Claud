@@ -1,5 +1,7 @@
 # Proyecto_Claud — Analyticore
 
+![CI/CD](https://github.com/Xriva18/Proyecto_Claud/actions/workflows/ci.yml/badge.svg)
+
 Monorepo con tres servicios para análisis de texto: frontend React, servicio de submisión Python (FastAPI) y servicio de análisis Java (Spring Boot).
 
 ## Estructura
